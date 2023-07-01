@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A220FA702A500D2300B7F57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA6F2A500D2300B7F57E /* AppDelegate.swift */; };
+		A220FA722A500D2300B7F57E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA712A500D2300B7F57E /* SceneDelegate.swift */; };
+		A220FA742A500D2300B7F57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA732A500D2300B7F57E /* ViewController.swift */; };
+		A220FA772A500D2300B7F57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220FA752A500D2300B7F57E /* Main.storyboard */; };
+		A220FA792A500D2500B7F57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A220FA782A500D2500B7F57E /* Assets.xcassets */; };
+		A220FA7C2A500D2500B7F57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220FA7A2A500D2500B7F57E /* LaunchScreen.storyboard */; };
+		A220FA872A500D2600B7F57E /* SampleVideoChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA862A500D2600B7F57E /* SampleVideoChatAppTests.swift */; };
+		A220FA912A500D2600B7F57E /* SampleVideoChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA902A500D2600B7F57E /* SampleVideoChatAppUITests.swift */; };
+		A220FA932A500D2600B7F57E /* SampleVideoChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220FA922A500D2600B7F57E /* SampleVideoChatAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A220FA832A500D2600B7F57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A220FA642A500D2300B7F57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A220FA6B2A500D2300B7F57E;
+			remoteInfo = SampleVideoChatApp;
+		};
+		A220FA8D2A500D2600B7F57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A220FA642A500D2300B7F57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A220FA6B2A500D2300B7F57E;
+			remoteInfo = SampleVideoChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A220FA6C2A500D2300B7F57E /* SampleVideoChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVideoChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220FA6F2A500D2300B7F57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A220FA712A500D2300B7F57E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A220FA732A500D2300B7F57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A220FA762A500D2300B7F57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A220FA782A500D2500B7F57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A220FA7B2A500D2500B7F57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A220FA7D2A500D2500B7F57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A220FA822A500D2600B7F57E /* SampleVideoChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVideoChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220FA862A500D2600B7F57E /* SampleVideoChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVideoChatAppTests.swift; sourceTree = "<group>"; };
+		A220FA8C2A500D2600B7F57E /* SampleVideoChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVideoChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220FA902A500D2600B7F57E /* SampleVideoChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVideoChatAppUITests.swift; sourceTree = "<group>"; };
+		A220FA922A500D2600B7F57E /* SampleVideoChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVideoChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A220FA692A500D2300B7F57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA7F2A500D2600B7F57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA892A500D2600B7F57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A220FA632A500D2300B7F57E = {
+			isa = PBXGroup;
+			children = (
+				A220FA6E2A500D2300B7F57E /* SampleVideoChatApp */,
+				A220FA852A500D2600B7F57E /* SampleVideoChatAppTests */,
+				A220FA8F2A500D2600B7F57E /* SampleVideoChatAppUITests */,
+				A220FA6D2A500D2300B7F57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A220FA6D2A500D2300B7F57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A220FA6C2A500D2300B7F57E /* SampleVideoChatApp.app */,
+				A220FA822A500D2600B7F57E /* SampleVideoChatAppTests.xctest */,
+				A220FA8C2A500D2600B7F57E /* SampleVideoChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A220FA6E2A500D2300B7F57E /* SampleVideoChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				A220FA6F2A500D2300B7F57E /* AppDelegate.swift */,
+				A220FA712A500D2300B7F57E /* SceneDelegate.swift */,
+				A220FA732A500D2300B7F57E /* ViewController.swift */,
+				A220FA752A500D2300B7F57E /* Main.storyboard */,
+				A220FA782A500D2500B7F57E /* Assets.xcassets */,
+				A220FA7A2A500D2500B7F57E /* LaunchScreen.storyboard */,
+				A220FA7D2A500D2500B7F57E /* Info.plist */,
+			);
+			path = SampleVideoChatApp;
+			sourceTree = "<group>";
+		};
+		A220FA852A500D2600B7F57E /* SampleVideoChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A220FA862A500D2600B7F57E /* SampleVideoChatAppTests.swift */,
+			);
+			path = SampleVideoChatAppTests;
+			sourceTree = "<group>";
+		};
+		A220FA8F2A500D2600B7F57E /* SampleVideoChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A220FA902A500D2600B7F57E /* SampleVideoChatAppUITests.swift */,
+				A220FA922A500D2600B7F57E /* SampleVideoChatAppUITestsLaunchTests.swift */,
+			);
+			path = SampleVideoChatAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A220FA6B2A500D2300B7F57E /* SampleVideoChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220FA962A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatApp" */;
+			buildPhases = (
+				A220FA682A500D2300B7F57E /* Sources */,
+				A220FA692A500D2300B7F57E /* Frameworks */,
+				A220FA6A2A500D2300B7F57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleVideoChatApp;
+			productName = SampleVideoChatApp;
+			productReference = A220FA6C2A500D2300B7F57E /* SampleVideoChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A220FA812A500D2600B7F57E /* SampleVideoChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220FA992A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatAppTests" */;
+			buildPhases = (
+				A220FA7E2A500D2600B7F57E /* Sources */,
+				A220FA7F2A500D2600B7F57E /* Frameworks */,
+				A220FA802A500D2600B7F57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A220FA842A500D2600B7F57E /* PBXTargetDependency */,
+			);
+			name = SampleVideoChatAppTests;
+			productName = SampleVideoChatAppTests;
+			productReference = A220FA822A500D2600B7F57E /* SampleVideoChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A220FA8B2A500D2600B7F57E /* SampleVideoChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220FA9C2A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatAppUITests" */;
+			buildPhases = (
+				A220FA882A500D2600B7F57E /* Sources */,
+				A220FA892A500D2600B7F57E /* Frameworks */,
+				A220FA8A2A500D2600B7F57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A220FA8E2A500D2600B7F57E /* PBXTargetDependency */,
+			);
+			name = SampleVideoChatAppUITests;
+			productName = SampleVideoChatAppUITests;
+			productReference = A220FA8C2A500D2600B7F57E /* SampleVideoChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A220FA642A500D2300B7F57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A220FA6B2A500D2300B7F57E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A220FA812A500D2600B7F57E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A220FA6B2A500D2300B7F57E;
+					};
+					A220FA8B2A500D2600B7F57E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A220FA6B2A500D2300B7F57E;
+					};
+				};
+			};
+			buildConfigurationList = A220FA672A500D2300B7F57E /* Build configuration list for PBXProject "SampleVideoChatApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A220FA632A500D2300B7F57E;
+			productRefGroup = A220FA6D2A500D2300B7F57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A220FA6B2A500D2300B7F57E /* SampleVideoChatApp */,
+				A220FA812A500D2600B7F57E /* SampleVideoChatAppTests */,
+				A220FA8B2A500D2600B7F57E /* SampleVideoChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A220FA6A2A500D2300B7F57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220FA7C2A500D2500B7F57E /* LaunchScreen.storyboard in Resources */,
+				A220FA792A500D2500B7F57E /* Assets.xcassets in Resources */,
+				A220FA772A500D2300B7F57E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA802A500D2600B7F57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA8A2A500D2600B7F57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A220FA682A500D2300B7F57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220FA742A500D2300B7F57E /* ViewController.swift in Sources */,
+				A220FA702A500D2300B7F57E /* AppDelegate.swift in Sources */,
+				A220FA722A500D2300B7F57E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA7E2A500D2600B7F57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220FA872A500D2600B7F57E /* SampleVideoChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220FA882A500D2600B7F57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220FA932A500D2600B7F57E /* SampleVideoChatAppUITestsLaunchTests.swift in Sources */,
+				A220FA912A500D2600B7F57E /* SampleVideoChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A220FA842A500D2600B7F57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A220FA6B2A500D2300B7F57E /* SampleVideoChatApp */;
+			targetProxy = A220FA832A500D2600B7F57E /* PBXContainerItemProxy */;
+		};
+		A220FA8E2A500D2600B7F57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A220FA6B2A500D2300B7F57E /* SampleVideoChatApp */;
+			targetProxy = A220FA8D2A500D2600B7F57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A220FA752A500D2300B7F57E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A220FA762A500D2300B7F57E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A220FA7A2A500D2500B7F57E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A220FA7B2A500D2500B7F57E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A220FA942A500D2600B7F57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A220FA952A500D2600B7F57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A220FA972A500D2600B7F57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleVideoChatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A220FA982A500D2600B7F57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleVideoChatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A220FA9A2A500D2600B7F57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleVideoChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleVideoChatApp";
+			};
+			name = Debug;
+		};
+		A220FA9B2A500D2600B7F57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleVideoChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleVideoChatApp";
+			};
+			name = Release;
+		};
+		A220FA9D2A500D2600B7F57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleVideoChatApp;
+			};
+			name = Debug;
+		};
+		A220FA9E2A500D2600B7F57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K44A4PTGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.app.SampleVideoChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleVideoChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A220FA672A500D2300B7F57E /* Build configuration list for PBXProject "SampleVideoChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220FA942A500D2600B7F57E /* Debug */,
+				A220FA952A500D2600B7F57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220FA962A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220FA972A500D2600B7F57E /* Debug */,
+				A220FA982A500D2600B7F57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220FA992A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220FA9A2A500D2600B7F57E /* Debug */,
+				A220FA9B2A500D2600B7F57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220FA9C2A500D2600B7F57E /* Build configuration list for PBXNativeTarget "SampleVideoChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220FA9D2A500D2600B7F57E /* Debug */,
+				A220FA9E2A500D2600B7F57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A220FA642A500D2300B7F57E /* Project object */;
+}
